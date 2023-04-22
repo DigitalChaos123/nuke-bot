@@ -65,7 +65,7 @@ async def ban_all_members(guild):
     return banned
 
 
-async def create_roles(fucked):
+async def create_roles(guild):
     created = 0
     for _ in range(200 - len(guild.roles)):
         try:
